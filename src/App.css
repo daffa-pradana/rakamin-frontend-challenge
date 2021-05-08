@@ -1,0 +1,25 @@
+/* === BASE COLOR === */
+:root {
+  --clr-pink: #eb2f96;
+  --clr-ungu: #7b61ff;
+  --clr-biru: #2f54eb;
+  --clr-hijau: #52c41a;
+  --clr-bg-pink: #fff9fb;
+  --clr-bg-ungu: #fcfafd;
+  --clr-bg-biru: #f7faff;
+  --clr-bg-hijau: #f8fef1;
+}
+
+/* === BASE STYLE === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "rubik";
+}
+
+/* === BASE FONT === */
+@font-face {
+  font-family: "rubik";
+  src: local("Rubik") url(./fonts/Rubik/static/Rubik-Regular.ttf);
+}
