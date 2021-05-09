@@ -7,6 +7,8 @@ import {
   GroupBtn,
   BtnIcon,
   BtnText,
+  GroupTasks,
+  TaskPlaceholder,
 } from "./GroupComponents";
 
 const Group = ({ group }) => {
@@ -19,6 +21,11 @@ const Group = ({ group }) => {
         <GroupTitle enum_clr={enum_clr}>Group {id}</GroupTitle>
       </GroupTitleWrapper>
       <GroupInterval>{enum_interval}</GroupInterval>
+      <GroupTasks>
+        <TaskPlaceholder>
+          No Task Available
+        </TaskPlaceholder>
+      </GroupTasks>
       <GroupBtn>
         <BtnIcon src={plus_icon} />
         <BtnText>New Task</BtnText>

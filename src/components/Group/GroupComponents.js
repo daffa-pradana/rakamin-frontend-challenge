@@ -42,6 +42,22 @@ export const GroupBtn = styled.div`
   cursor: pointer;
 `;
 
+export const GroupTasks = styled.div`
+  /* border: 1px solid blue; */
+  margin-top: 12px;
+`
+
+export const TaskPlaceholder = styled.div`
+  border: 1px solid var(--clr-border-abu);
+  background-color: #fff;
+  border-radius: 4px;
+  height: 56px;
+  color: var(--clr-abu);
+  font-family: "font-regular";
+  font-size: 14px;
+  padding: 12px 16px;
+`
+
 export const BtnIcon = styled.img`
   width: 22px;
 `;

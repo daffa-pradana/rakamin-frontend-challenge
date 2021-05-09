@@ -5,6 +5,7 @@
   --clr-ungu: #7b61ff;
   --clr-biru: #2f54eb;
   --clr-hijau: #52c41a;
+  --clr-abu: #b7bdc9;
 
   --clr-bg-pink: #fff9fb;
   --clr-bg-ungu: #fcfafd;
@@ -20,6 +21,7 @@
   --clr-border-ungu: #d3adf7;
   --clr-border-biru: #adc6ff;
   --clr-border-hijau: #b7eb8f;
+  --clr-border-abu: #e4e4e8;
 }
 
 /* === BASE STYLE === */
