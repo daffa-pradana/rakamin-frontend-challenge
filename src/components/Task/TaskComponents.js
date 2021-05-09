@@ -11,3 +11,8 @@ export const TaskDescription = styled.p`
     font-family: "font-medium";
     font-size: 14px;
 `
+
+export const TaskProgress = styled.div`
+    margin-top: 33px;
+    /* border: 1px solid purple; */
+`

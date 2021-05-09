@@ -1,5 +1,6 @@
 import React from 'react'
-import { TaskDescription, TaskWrapper } from './TaskComponents'
+import Progress from '../Progress'
+import { TaskDescription, TaskProgress, TaskWrapper } from './TaskComponents'
 
 const Task = () => {
     return (
@@ -7,6 +8,9 @@ const Task = () => {
             <TaskDescription>
                 Re-designed the zero-g doggie bags. No more Spills!
             </TaskDescription>
+            <TaskProgress>
+                <Progress progress={'20%'}/>
+            </TaskProgress>
         </TaskWrapper>
     )
 }
