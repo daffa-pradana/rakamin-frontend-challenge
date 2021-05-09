@@ -1,4 +1,5 @@
 import React from "react";
+import Task from "../Task";
 import {
   GroupInterval,
   GroupTitle,
@@ -22,9 +23,10 @@ const Group = ({ group }) => {
       </GroupTitleWrapper>
       <GroupInterval>{enum_interval}</GroupInterval>
       <GroupTasks>
-        <TaskPlaceholder>
+        {/* <TaskPlaceholder>
           No Task Available
-        </TaskPlaceholder>
+        </TaskPlaceholder> */}
+        <Task />
       </GroupTasks>
       <GroupBtn>
         <BtnIcon src={plus_icon} />
