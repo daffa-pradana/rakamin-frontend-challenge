@@ -1,10 +1,17 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 import './App.css';
-import Sidebar from './components/Sidebar/Sidebar';
+import Dashboard from './pages/Dashboard';
 
 function App() {
+
   return (
     <>
-      <Sidebar />
+      <Router>
+        <Switch>
+          <Route path='/v1' component={Dashboard}/>
+        </Switch>
+      </Router>
     </>
   );
 }
