@@ -1,13 +1,25 @@
 /* === BASE COLOR === */
 :root {
+  --clr-black: #2f3136;
   --clr-pink: #eb2f96;
   --clr-ungu: #7b61ff;
   --clr-biru: #2f54eb;
   --clr-hijau: #52c41a;
+
   --clr-bg-pink: #fff9fb;
   --clr-bg-ungu: #fcfafd;
   --clr-bg-biru: #f7faff;
   --clr-bg-hijau: #f8fef1;
+
+  --clr-bg2-pink: #fff0f6;
+  --clr-bg2-ungu: #f9f0ff;
+  --clr-bg2-biru: #f0f5ff;
+  --clr-bg2-hijau: #f6ffed;
+
+  --clr-border-pink: #ffadd2;
+  --clr-border-ungu: #d3adf7;
+  --clr-border-biru: #adc6ff;
+  --clr-border-hijau: #b7eb8f;
 }
 
 /* === BASE STYLE === */

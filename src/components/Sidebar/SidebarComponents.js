@@ -6,7 +6,7 @@ export const SidebarWrapper = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2F3136;
+    background-color: var(--clr-black);
     display: flex;
     flex-direction: column;
     align-items: center;
